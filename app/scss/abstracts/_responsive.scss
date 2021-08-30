@@ -1,0 +1,223 @@
+@media (max-width: 994px){
+    .news-letter{
+        flex-direction: column;
+        .subscribe{
+            text-align: center;
+            width: 60%;
+        }
+        .subsc-box{
+            width: 60%;
+        }
+    }
+    .hero-section{
+        .hero-image{
+            display: none;
+        }
+    }
+    .section-1{
+        padding-top: 7rem;
+    }
+}
+
+@media (max-width: 819px){
+    
+}
+
+@media (max-width: 790px){
+    nav{
+        & .nav-wraper{
+            display: block;
+            position: relative;
+            // & input[type="checkbox"]{
+            //     position: absolute;
+            //     display: none;
+            //     height: 24px;
+            //     width: 38px;
+            //     top: 16px;
+            //     right: 6px;
+            //     z-index: 5;
+            //     // opacity: 0;
+            //     cursor: pointer;
+            // }
+            // & input[type="checkbox"]:checked ~ .menue-items{
+            //     transform: translate(-20px, 10px);
+            // }
+            
+            .hamburger-lines{
+                cursor: pointer;
+                font-size: 1.8rem;
+                display: block;
+                height: 24px;
+                width: 34px;
+                position: absolute;
+                top: 18px;
+                right: 10px;
+                z-index: 3;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                // .line{
+                //     display: block;
+                //     height: 3px;
+                //     width: 100%;
+                //     border-radius: 8px;
+                //     background-color: $font-color;
+                // }
+                // .line-1{
+                //     transform-origin: 0%, 0%;
+                //     transition: transform 0.3s ease-in-out;
+                // }
+                // .line-2{
+                //     transition: transform 0.3s ease-in-out;
+                // }
+                // .line-3{
+                //     transform-origin: 0%, 100%;
+                //     transition: transform 0.3s ease-in-out;
+                // }
+            }
+            // & input[type="checkbox"]:checked ~ .hamburger-lines .line1{
+            //     transform: rotate(45deg);
+            // }
+            
+            .menue-items{
+                height: 100vh;
+                max-width: 300px;
+                background-color: #ffffff;
+                transform: translate(-340px, 10px);
+                box-shadow: 0px 2px 6px 0px rgba(49, 49, 49, 0.205);
+                overflow: scroll;
+                transition: transform 0.32s ease-in-out;
+                & ul{
+                    max-width: 330px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    margin-left: -40px;
+                    padding-left: 50px;
+                    padding-right: 0px;
+                    transition: transform 0.5s ease-in-out;
+                    overflow: hidden;
+                }
+                & ul{
+                    & .item{
+                        height: auto;
+                        list-style: none;
+                        padding: 0.4em 0.4em;
+                        margin-left: 0;
+                        
+                        & a{
+                            color: $font-color;
+                            padding: 12px 10px;
+                            text-decoration: none;
+                            display: inline-block;
+                            width: 180px;
+                        }
+                        & a:hover{
+                            background-color: #ffffff;
+                            color: $main-color;
+                        }
+                        
+                    }
+                    & i{
+                        display: inline-block;
+                        padding: 0.8rem;
+                        cursor: pointer;
+                    }
+                    & .cart{
+                        margin-left: 0.8rem;
+                    }
+                }
+                & .dropdown-content{
+                    position: relative;
+                    transform: translate(70px, 0px);
+                    border-radius: 0px;
+                    box-shadow: none;
+                    width: 200px;
+                    & .s-item{
+                        & a{
+                            color: $font-color;
+                            padding: 8px 16px;
+                            width: 180px;
+                        }
+                        & a:hover{
+                            color: $main-color;
+                            background-color: #ffffff;
+                        }
+                    }
+                    
+                }
+                & .dropbtn:hover .dropdown-content {
+                    display: none;
+                }
+            }
+            .ham-a{
+                transform: translate(-20px, 10px);
+            }
+            
+        }
+    }
+}
+
+@media (max-width: 767px){
+
+}
+
+@media (max-width: 834px){
+    .footer-pages{
+        flex-wrap: wrap;
+        .fp-c{
+            width: 50%;
+        }
+    }
+    
+}
+
+@media (max-width: 684px){
+    .news-letter{
+        .subscribe{
+            text-align: center;
+            width: 100%;
+        }
+        .subsc-box{
+            width: 100%;
+            .sb-wraper{
+                input{
+                    width: 200px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 611px){
+    
+}
+
+@media (max-width: 540px){
+    
+}
+
+@media (max-width: 360px){
+    .news-letter{
+        .subscribe{
+            text-align: center;
+            width: 100%;
+        }
+        .subsc-box{
+            width: 100%;
+            .sb-wraper{
+                input{
+                    width: 180px;
+                }
+            }
+        }
+    }
+    .footer-pages{
+        .fp-c{
+            width: 100%;
+        }
+    }
+    
+}
+
+
