@@ -11,12 +11,12 @@
         h1{
             line-height: 1.2;
             margin: 0px;
-
         }
         p{
             font-size: $pfs;
         }
         .call-to-action{
+            padding-top: 1.8em;
             display: flex;
             justify-content: start;
             align-items: center;
@@ -26,11 +26,11 @@
                 font-size: $pfs2;
                 background-color: $main-color;
                 padding: 0.8em 1.2em;
-                border-radius: 12px;
+                border-radius: 6px;
             }
             .play-btn {
-                width: 60px;
-                height: 60px;
+                width: 58px;
+                height: 58px;
                 background: radial-gradient( #407BFF 60%, #407BFF 62%);
                 border-radius: 50%;
                 position: relative;

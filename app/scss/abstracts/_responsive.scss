@@ -4,12 +4,22 @@
         .subscribe{
             text-align: center;
             width: 60%;
+            padding-top: 3em;
         }
         .subsc-box{
             width: 60%;
+            align-items: center;
         }
     }
     .hero-section{
+        justify-content: center;
+        .hero-text{
+            width: 90%;
+            text-align: center;
+            .call-to-action{
+                justify-content: center;
+            }
+        }
         .hero-image{
             display: none;
         }
@@ -162,7 +172,7 @@
 
 }
 
-@media (max-width: 834px){
+@media (max-width: 894px){
     .footer-pages{
         flex-wrap: wrap;
         .fp-c{

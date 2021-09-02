@@ -1,11 +1,12 @@
 footer{
     padding-top: 0.4rem;
     background-color: $main-color-lignt;
+    background-color: #f0f0f0;
 }
 
 .news-letter{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     .subscribe{
         color: $font-color;
@@ -18,7 +19,7 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-end;
         .sb-wraper{
             height: 40px;
             display: flex;
@@ -43,7 +44,7 @@ footer{
                 width: 110px;
                 margin: 0px;
                 background-color: $main-color;
-                padding: 0.6em 1em;
+                padding: 0.34em 0.8em;
                 color: #ffffff;
                 font-weight: 600;
             }
@@ -102,6 +103,8 @@ footer{
     justify-content: center;
     align-items: flex-start;
     .fp-c{
+        padding-left: 0.4em;
+        padding-right: 0.4em;
         color: $font-color;
         width: 25%;
         ul{

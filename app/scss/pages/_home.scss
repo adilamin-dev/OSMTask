@@ -1,0 +1,87 @@
+.section-2{
+    color: $font-color;
+    .about-wraper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .about-info{
+            order: 2;
+            width: 50%;
+            .about-box{
+                .ab-p-1{
+                    display: none;
+                }
+                .ab-p-2{
+                    display: none;
+                }
+                .ab-p-3{
+                    display: none;
+                }
+                .ab-p-4{
+                    display: none;
+                }
+            }
+            .ab-2{
+                border-bottom: 1px solid $font-color;
+                .qwraper-1{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    h3{
+                        i.fas{
+                            display: block;
+                            margin: 2em;
+                        };
+                    }
+                }
+            }
+            .ab-3{
+                border-bottom: 1px solid $font-color;
+                .qwraper-2{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    h3{
+                        i.fas{
+                            padding: 2em;
+                        };
+                    }
+                }
+            }
+            .ab-4{
+                border-bottom: 1px solid $font-color;
+                .qwraper-3{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    h3{
+                        i.fas{
+                            padding: 2em;
+                        };
+                    }
+                }
+            }
+            .ab-5{
+                border-bottom: 1px solid $font-color;
+                .qwraper-4{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    h3{
+                        i.fas{
+                            padding-right: 2em;
+                        };
+                    }
+                }
+            }
+        }
+        .about-image{
+            order: 1;
+            width: 50%;
+        }
+    }
+}
+
+.t-ro{
+    transform: rotate(180deg);
+}

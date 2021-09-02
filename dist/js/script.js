@@ -3,11 +3,25 @@ $(document).ready(function(){
         $(".dropdown-content").slideToggle();
         $(".arrow").toggleClass("fa-chevron-down fa-chevron-up");
     });
-});
-
-$(document).ready(function(){
     $(".hamb").click(function(){
         $(".menue-items").toggleClass("ham-a");
         $(".hamb").toggleClass("fa-bars fa-times");
     });
+    $(".qwraper-1").click(function(){
+        $(".ab-p-1").slideToggle();
+        $(".ar-1").toggleClass("t-ro");
+    });
+    $(".qwraper-2").click(function(){
+        $(".ab-p-2").slideToggle();
+        $(".ar-2").toggleClass("t-ro");
+    });
+    $(".qwraper-3").click(function(){
+        $(".ab-p-3").slideToggle();
+        $(".ar-3").toggleClass("t-ro");
+    });
+    $(".qwraper-4").click(function(){
+        $(".ab-p-4").slideToggle();
+        $(".ar-4").toggleClass("t-ro");
+    });
 });
+
