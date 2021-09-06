@@ -27,6 +27,83 @@
     .section-1{
         padding-top: 7rem;
     }
+    .section-2{
+        .about-wraper{
+            flex-direction: column;
+            justify-content: center;
+            .about-info{
+                width: 90%;
+            }
+            .about-image{
+                width: 80%;
+            }
+        }
+    }
+    .section-3{
+        .services-ab-wraper{
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            .sa-box{
+                .sib-box{
+                    width: 290px;
+                    .sib-wraper{
+                        width: 290px
+                    }
+                }
+            }
+            .sa-box-2{
+                order: 1;
+                width: 80%;
+            }
+            .sa-box-1{
+                order: 2;
+                width: 290px;
+            }
+            .sa-box-3{
+                order: 3;
+                width: 290px;
+            }
+            .sib-box-1{
+                .sib-info-1{
+                    display: block;
+                }
+            }
+            .sib-box-2{
+                .sib-info-2{
+                    display: block;
+                }
+            }
+            .sib-box-3{
+                .sib-info-3{
+                    display: block;
+                }
+            }
+            .sib-box-4{
+                .sib-info-4{
+                    display: block;
+                }
+            }
+            .sib-box-5{
+                .sib-info-5{
+                    display: block;
+                }
+            }
+            .sib-box-6{
+                .sib-info-6{
+                    display: block;
+                }
+            }
+        }
+    }
+    .section-4{
+        .counter-wraper{
+            flex-wrap: wrap;
+            height: auto;
+            .counter-box{
+                width: 270px;
+            }
+        }
+    }
 }
 
 @media (max-width: 819px){
@@ -205,6 +282,18 @@
 
 @media (max-width: 540px){
     
+}
+
+@media (max-width: 479px){
+    .hero-section{
+        .hero-text{
+            .call-to-action{
+                .play-btn{
+                    display: none;
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 360px){
