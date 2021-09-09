@@ -23,5 +23,21 @@ $(document).ready(function(){
         $(".ab-p-4").slideToggle();
         $(".ar-4").toggleClass("t-ro");
     });
+    $('.owl-carousel').owlCarousel({
+        items: 3,
+        autoplay: true,
+        loop: true,
+        responsive:{
+            0:{
+                items:1,
+            },
+            730:{
+                items:2,
+            },
+            1060:{
+                items:3,
+            }
+        }
+    });
 });
 
