@@ -1,4 +1,169 @@
 .service-section-1{
     padding-top: 6rem;
     padding-bottom: 6rem;
+    color: $font-color;
+    .s-heading{
+        h2{
+            text-align: center;
+            margin: 0px;
+            padding: 0px;
+        }
+        p{
+            text-align: center;
+            margin: 0px;
+            padding: 0px;
+        }
+    }
+    .service-wraper{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        .service-items{
+            height: 100%;
+            width: 75%;
+            padding: 1em;
+            display: flex;
+            justify-content: space-evenly;
+            align-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            .s-item{
+                margin: 1rem;
+                height: 290px;
+                width: 280px;
+                background-color: $white-color;
+                border-radius: 12px;
+                box-shadow: $b-shadow;
+                padding: 1em;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+                .s-item-icon{
+                    text-align: center;
+                    height: 50px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: center;
+                    margin-top: 0.2rem;
+                    margin-bottom: 0.2rem;
+                }
+                h3{
+                    padding-top: 0.4em;
+                    margin: 0px;
+                    text-align: center;
+                }
+                p{
+                    padding-top: 0px;
+                    padding-bottom: 0.2em;
+                    margin: 0px;
+                    font-size: $pfs3;
+                    text-align: center;
+                }
+                .checkout-btn{
+                    text-align: center;
+                    display: block;
+                    padding-top: 0.2em;
+                    padding-bottom: 0.2em;
+                    width: 180px;
+                    color: $white-color;
+                    font-weight: 600;
+                    background-color: $main-color;
+                    border-radius: 7px;
+                    top: 100%;
+                }
+            }
+        }
+        .service-menue{
+            height: 100%;
+            width: 25%;
+            padding: 1em;
+            .s-contact-box{
+                background-color: $font-color;
+                color: $white-color;
+                padding: 1.4em;
+                a{
+                    color: $white-color;
+                    margin: 0px;
+                    padding: 0px;
+                }
+                a:visited{
+                    text-decoration: none;
+                    color: $white-color;
+                }
+                a:link{
+                    text-decoration: none;
+                    color: $white-color;
+                }
+                a:active{
+                    color: $main-color;
+                }
+                u{
+                    a{
+                        i{
+                            padding-left: 0.3em;
+                            font-size: $pfs3;
+                        }
+                    }
+                }
+            }
+            .s-menue{
+                color: $font-color;
+                padding: 1rem;
+                background-color: $paper-color;
+                .s-menue-items{
+                    padding-bottom: 1.4rem;
+                    .smenue-item{
+                        line-height: 54px;
+                        border-bottom: 1px solid $font-color;
+                        a{
+                            text-decoration: none;
+                            color: $font-color;
+                        }
+                        a:active{
+                            text-decoration: none;
+                        }
+                        a:visited{
+                            text-decoration: none;
+                        }
+                        a:link{
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .get-aquote{
+        padding-top: 2em;
+        text-align: center;
+        h2{
+            font-size: 3rem;
+        }
+        p{
+            margin-bottom: 3rem;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+        a{
+            font-size: 1.8rem;
+            padding-left: 2em;
+            padding-right: 2em;
+            padding-top: 0.6em;
+            padding-bottom: 0.6em;
+            color: $white-color;
+            font-weight: 600;
+            background-color: $font-color;
+        }
+        a:link{
+            text-decoration: none;
+        }
+        a:active{
+            text-decoration: none;
+        }
+        a:visited{
+            text-decoration: none;
+        }
+    }
 }

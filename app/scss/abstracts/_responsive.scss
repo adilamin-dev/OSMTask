@@ -1,3 +1,16 @@
+@media (max-width: 1164px){
+    .service-section-1{
+        .service-wraper{
+            flex-direction: column;
+            .service-items{
+                width: 100%;
+            }
+            .service-menue{
+                width: 100%;
+            }
+        }
+    }
+}
 @media (max-width: 994px){
     .news-letter{
         flex-direction: column;
