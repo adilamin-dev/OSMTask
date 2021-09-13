@@ -3,6 +3,10 @@ $(document).ready(function(){
         $(".dropdown-content").slideToggle();
         $(".arrow").toggleClass("fa-chevron-down fa-chevron-up");
     });
+    $(".arrow2").click(function(){
+        $(".dropdown-content2").slideToggle();
+        $(".arrow2").toggleClass("fa-chevron-down fa-chevron-up");
+    });
     $(".hamb").click(function(){
         $(".menue-items").toggleClass("ham-a");
         $(".hamb").toggleClass("fa-bars fa-times");

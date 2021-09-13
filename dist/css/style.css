@@ -904,6 +904,41 @@ nav .nav-wraper .menue-items .dropbtn:hover .dropdown-content {
   display: block;
 }
 
+nav .nav-wraper .menue-items .dropdown-content2 {
+  display: none;
+  color: #363636;
+  -webkit-transform: translate(-12px, 15px);
+          transform: translate(-12px, 15px);
+  padding: 0px;
+  position: absolute;
+  border-radius: 6px;
+  min-width: 160px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
+          box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
+  overflow: hidden;
+}
+
+nav .nav-wraper .menue-items .dropdown-content2 .s-item {
+  list-style: none;
+}
+
+nav .nav-wraper .menue-items .dropdown-content2 .s-item a {
+  color: #363636;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+nav .nav-wraper .menue-items .dropdown-content2 .s-item a:hover {
+  color: #ffffff;
+  background-color: #407BFF;
+}
+
+nav .nav-wraper .menue-items .dropbtn:hover .dropdown-content2 {
+  display: block;
+}
+
 nav .nav-wraper input[type="checkbox"] {
   display: none;
 }
@@ -2212,7 +2247,7 @@ footer {
   }
 }
 
-@media (max-width: 790px) {
+@media (max-width: 850px) {
   nav .nav-wraper {
     display: block;
     position: relative;
@@ -2307,6 +2342,9 @@ footer {
             box-shadow: none;
     width: 200px;
   }
+  nav .nav-wraper .menue-items .dropdown-content .s-item {
+    border-bottom: 1px solid #363636;
+  }
   nav .nav-wraper .menue-items .dropdown-content .s-item a {
     color: #363636;
     padding: 8px 16px;
@@ -2317,6 +2355,30 @@ footer {
     background-color: #ffffff;
   }
   nav .nav-wraper .menue-items .dropbtn:hover .dropdown-content {
+    display: none;
+  }
+  nav .nav-wraper .menue-items .dropdown-content2 {
+    position: relative;
+    -webkit-transform: translate(70px, 0px);
+            transform: translate(70px, 0px);
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    width: 200px;
+  }
+  nav .nav-wraper .menue-items .dropdown-content2 .s-item {
+    border-bottom: 1px solid #363636;
+  }
+  nav .nav-wraper .menue-items .dropdown-content2 .s-item a {
+    color: #363636;
+    padding: 8px 16px;
+    width: 180px;
+  }
+  nav .nav-wraper .menue-items .dropdown-content2 .s-item a:hover {
+    color: #407BFF;
+    background-color: #ffffff;
+  }
+  nav .nav-wraper .menue-items .dropbtn:hover .dropdown-content2 {
     display: none;
   }
   nav .nav-wraper .ham-a {
