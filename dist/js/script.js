@@ -7,6 +7,10 @@ $(document).ready(function(){
         $(".dropdown-content2").slideToggle();
         $(".arrow2").toggleClass("fa-chevron-down fa-chevron-up");
     });
+    $(".arrow3").click(function(){
+        $(".dropdown-content3").slideToggle();
+        $(".arrow3").toggleClass("fa-chevron-down fa-chevron-up");
+    });
     $(".hamb").click(function(){
         $(".menue-items").toggleClass("ham-a");
         $(".hamb").toggleClass("fa-bars fa-times");

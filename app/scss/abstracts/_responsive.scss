@@ -273,6 +273,30 @@
                 & .dropbtn:hover .dropdown-content2 {
                     display: none;
                 }
+                & .dropdown-content3{
+                    position: relative;
+                    transform: translate(70px, 0px);
+                    border-radius: 0px;
+                    box-shadow: none;
+                    width: 200px;
+                    & .s-item{
+                        border-bottom: 1px solid $font-color;
+                        & a{
+                            color: $font-color;
+                            padding: 8px 16px;
+                            width: 180px;
+                        }
+                        & a:hover{
+                            color: $main-color;
+                            background-color: #ffffff;
+                        }
+                    }
+                    
+                }
+                & .dropbtn:hover .dropdown-content3 {
+                    display: none;
+                }
+                
             }
             .ham-a{
                 transform: translate(-20px, 10px);
