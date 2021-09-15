@@ -5,91 +5,90 @@
     align-items: center;
     padding-top: 6em;
     .shop-item{
-        height: 420px;
-        width: 614px;
-        border-radius: 7px 7px 7px 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        height: 300px;
+        background-color: $white-color;
         box-shadow: $b-shadow;
-        margin: 1rem;
+        margin: 1.8rem;
         .product-img{
-            float: left;
-            height: 420px;
-            width: 307px;
-        }
-          
-        .product-img img{
-            border-radius: 7px 0 0 7px;
-        }
-        .product-info {
-            float: left;
-            height: 420px;
-            width: 307px;
-            border-radius: 0 7px 10px 7px;
-            background-color: #ffffff;
-            .product-text {
+            width: 250px;
+            height: 300px;
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+            img{
                 height: 300px;
-                width: 307px;
-                h1{
-                    margin: 0 0 0 38px;
-                    padding-top: 52px;
-                    font-size: 34px;
-                    color: $font-color;
-                }
+                width: 250px;
+                object-position: center;
+                object-fit: cover;
+                margin: 0px;
+                padding: 0px;
+            }
+        }
+        .product-info{
+            padding: 0.8em;
+            width: 250px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            .product-text{
                 h2{
-                    margin: 0 0 47px 38px;
-                    font-size: 13px;
+                    margin: 0px;
                     font-weight: 400;
+                    font-size: $pfs;
                     text-transform: uppercase;
-                    color: $font-color;
-                    letter-spacing: 0.2em;
+                }
+                h3{
+                    margin: 0px;
+                    font-weight: 200;
+                    font-size: $pfs3;
+                    text-transform: uppercase;
                 }
                 p{
-                    height: 125px;
-                    margin: 0 0 0 38px;
-                    color: $font-color;
-                    line-height: 1.7em;
-                    font-size: 15px;
-                    font-weight: light;
-                    overflow: hidden;
+                    font-size: $pfs3;
+                    margin: 0px;
+                    padding-top: 0.8em;
+                    padding-bottom: 0.8em;
                 }
             }
             .product-price-btn{
-                height: 103px;
-                width: 307px;
-                margin-top: 17px;
+                padding: 0.8em;
+                width: 100%;
                 display: flex;
-                justify-content: flex-start;
+                justify-content: space-between;
                 align-items: center;
+                bottom: 0px;
                 p{
-                    top: -13px;
-                    height: 50px;
-                    margin: 0 0 0 38px;
-                    font-size: 28px;
-                    font-weight: light;
-                    color: $font-color
-                    
-                }
-                span{
-                    height: 50px;
-                    font-size: 34px;
+                    display: block;
+                    font-size: $h2-f;
+                    font-weight: 400;
+                    margin: 0px;
+                    line-height: 40px;
                 }
                 button{
-                    height: 50px;
-                    width: 176px;
-                    margin: 0 40px 0 16px;
-                    border: transparent;
-                    border-radius: 60px;
-                    font-size: 16px;
-                    font-weight: 500;
-                    text-transform: uppercase;
-                    letter-spacing: 0.2em;
-                    color: $white-color;
+                    display: block;
+                    width: 130px;
+                    height: 40px;
+                    border-radius: 20px;
+                    border-style: none;
+                    outline-style: none;
                     background-color: $main-color;
+                    color: $white-color;
+                    font-weight: 600;
+                    font-size: $pfs2;
                     cursor: pointer;
-                    outline: none;
-                  }
-                
+                }
+                button:active{
+                    background-color: $dark-c;
+                    box-shadow: $b-shadow;
+                }
             }
         }
-        
     }
+
 }
