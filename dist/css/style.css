@@ -769,7 +769,7 @@ nav {
 }
 
 nav .nav-wraper {
-  color: #363636;
+  color: #414141;
   font-weight: 600;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -812,19 +812,19 @@ nav .nav-wraper .menue-items ul .item {
 }
 
 nav .nav-wraper .menue-items ul .item a {
-  color: #363636;
+  color: #414141;
   text-decoration: none;
   -webkit-transition: all 0.24s ease-in-out;
   transition: all 0.24s ease-in-out;
 }
 
 nav .nav-wraper .menue-items ul .item a:link {
-  color: #363636;
+  color: #414141;
   text-decoration: none;
 }
 
 nav .nav-wraper .menue-items ul .item a:visited {
-  color: #363636;
+  color: #414141;
   text-decoration: none;
 }
 
@@ -871,7 +871,7 @@ nav .nav-wraper .menue-items ul .cart {
 
 nav .nav-wraper .menue-items .dropdown-content {
   display: none;
-  color: #363636;
+  color: #414141;
   -webkit-transform: translate(-12px, 15px);
           transform: translate(-12px, 15px);
   padding: 0px;
@@ -889,7 +889,7 @@ nav .nav-wraper .menue-items .dropdown-content .s-item {
 }
 
 nav .nav-wraper .menue-items .dropdown-content .s-item a {
-  color: #363636;
+  color: #414141;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -906,7 +906,7 @@ nav .nav-wraper .menue-items .dropbtn:hover .dropdown-content {
 
 nav .nav-wraper .menue-items .dropdown-content2 {
   display: none;
-  color: #363636;
+  color: #414141;
   -webkit-transform: translate(-12px, 15px);
           transform: translate(-12px, 15px);
   padding: 0px;
@@ -924,7 +924,7 @@ nav .nav-wraper .menue-items .dropdown-content2 .s-item {
 }
 
 nav .nav-wraper .menue-items .dropdown-content2 .s-item a {
-  color: #363636;
+  color: #414141;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -941,7 +941,7 @@ nav .nav-wraper .menue-items .dropbtn:hover .dropdown-content2 {
 
 nav .nav-wraper .menue-items .dropdown-content3 {
   display: none;
-  color: #363636;
+  color: #414141;
   -webkit-transform: translate(-12px, 15px);
           transform: translate(-12px, 15px);
   padding: 0px;
@@ -959,7 +959,7 @@ nav .nav-wraper .menue-items .dropdown-content3 .s-item {
 }
 
 nav .nav-wraper .menue-items .dropdown-content3 .s-item a {
-  color: #363636;
+  color: #414141;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -999,7 +999,7 @@ nav .nav-wraper .hamburger-lines {
 }
 
 .hero-section .hero-text {
-  color: #363636;
+  color: #414141;
   width: 50%;
 }
 
@@ -1158,7 +1158,7 @@ footer {
 }
 
 .news-letter .subscribe {
-  color: #363636;
+  color: #414141;
   padding: 0.2em;
   width: 50%;
 }
@@ -1244,8 +1244,8 @@ footer {
           align-items: center;
   border-radius: 50%;
   margin: 0.4rem;
-  color: #363636;
-  border: 2px solid #363636;
+  color: #414141;
+  border: 2px solid #414141;
   -webkit-transition: all 0.32s ease-in-out;
   transition: all 0.32s ease-in-out;
 }
@@ -1290,7 +1290,7 @@ footer {
 .footer-pages .fp-c {
   padding-left: 0.4em;
   padding-right: 0.4em;
-  color: #363636;
+  color: #414141;
   width: 25%;
 }
 
@@ -1300,7 +1300,7 @@ footer {
 }
 
 .footer-pages .fp-c ul li a {
-  color: #363636;
+  color: #414141;
 }
 
 .footer-copyright {
@@ -1315,7 +1315,7 @@ footer {
 }
 
 .section-2 {
-  color: #363636;
+  color: #414141;
 }
 
 .section-2 .about-wraper {
@@ -1354,7 +1354,7 @@ footer {
 }
 
 .section-2 .about-wraper .about-info .ab-2 {
-  border-bottom: 1px solid #363636;
+  border-bottom: 1px solid #414141;
 }
 
 .section-2 .about-wraper .about-info .ab-2 .qwraper-1 {
@@ -1380,7 +1380,7 @@ footer {
 }
 
 .section-2 .about-wraper .about-info .ab-3 {
-  border-bottom: 1px solid #363636;
+  border-bottom: 1px solid #414141;
 }
 
 .section-2 .about-wraper .about-info .ab-3 .qwraper-2 {
@@ -1405,7 +1405,7 @@ footer {
 }
 
 .section-2 .about-wraper .about-info .ab-4 {
-  border-bottom: 1px solid #363636;
+  border-bottom: 1px solid #414141;
 }
 
 .section-2 .about-wraper .about-info .ab-4 .qwraper-3 {
@@ -1430,7 +1430,7 @@ footer {
 }
 
 .section-2 .about-wraper .about-info .ab-5 {
-  border-bottom: 1px solid #363636;
+  border-bottom: 1px solid #414141;
 }
 
 .section-2 .about-wraper .about-info .ab-5 .qwraper-4 {
@@ -1469,7 +1469,7 @@ footer {
 .section-3 {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  color: #363636;
+  color: #414141;
 }
 
 .section-3 h2 {
@@ -1607,7 +1607,7 @@ footer {
 }
 
 .section-4 {
-  color: #363636;
+  color: #414141;
 }
 
 .section-4 .counter-wraper {
@@ -1665,7 +1665,7 @@ footer {
 .section-5 {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  color: #363636;
+  color: #414141;
 }
 
 .section-5 h2 {
@@ -1883,7 +1883,7 @@ footer {
 }
 
 .section-6 .post-wraper .post-box .pb-text {
-  color: #363636;
+  color: #414141;
   height: 256px;
   padding: 1em;
 }
@@ -1910,19 +1910,19 @@ footer {
 
 .section-6 .post-wraper .post-box .pb-text .article-box a.read-more-btn {
   text-decoration: none;
-  color: #363636;
+  color: #414141;
   margin: 0px;
   padding: 0px;
 }
 
 .section-6 .post-wraper .post-box .pb-text .article-box a.read-more-btn:visited {
   text-decoration: none;
-  color: #363636;
+  color: #414141;
 }
 
 .section-6 .post-wraper .post-box .pb-text .article-box a.read-more-btn:link {
   text-decoration: none;
-  color: #363636;
+  color: #414141;
 }
 
 .section-6 .post-wraper .post-box .pb-text .article-box a.read-more-btn:active {
@@ -1930,9 +1930,9 @@ footer {
 }
 
 .service-section-1 {
-  padding-top: 6rem;
+  padding-top: 8rem;
   padding-bottom: 6rem;
-  color: #363636;
+  color: #414141;
 }
 
 .service-section-1 .s-heading h2 {
@@ -1948,6 +1948,7 @@ footer {
 }
 
 .service-section-1 .service-wraper {
+  padding-top: 6em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2055,7 +2056,7 @@ footer {
 }
 
 .service-section-1 .service-wraper .service-menue .s-contact-box {
-  background-color: #363636;
+  background-color: #414141;
   color: #ffffff;
   padding: 1.4em;
 }
@@ -2086,7 +2087,7 @@ footer {
 }
 
 .service-section-1 .service-wraper .service-menue .s-menue {
-  color: #363636;
+  color: #414141;
   padding: 1rem;
   background-color: #e3ecff;
 }
@@ -2097,12 +2098,12 @@ footer {
 
 .service-section-1 .service-wraper .service-menue .s-menue .s-menue-items .smenue-item {
   line-height: 54px;
-  border-bottom: 1px solid #363636;
+  border-bottom: 1px solid #414141;
 }
 
 .service-section-1 .service-wraper .service-menue .s-menue .s-menue-items .smenue-item a {
   text-decoration: none;
-  color: #363636;
+  color: #414141;
 }
 
 .service-section-1 .service-wraper .service-menue .s-menue .s-menue-items .smenue-item a:active {
@@ -2140,7 +2141,7 @@ footer {
   padding-bottom: 0.6em;
   color: #ffffff;
   font-weight: 600;
-  background-color: #363636;
+  background-color: #414141;
 }
 
 .service-section-1 .get-aquote a:link {
@@ -2153,6 +2154,22 @@ footer {
 
 .service-section-1 .get-aquote a:visited {
   text-decoration: none;
+}
+
+.service-section-1 .service-wraper .service-items-details {
+  height: 100%;
+  width: 75%;
+  padding-top: 1em;
+  padding-right: 3em;
+  padding-left: 3em;
+  padding-bottom: 3em;
+}
+
+.service-section-1 .service-wraper .service-items-details .sp-packages {
+  background-color: #eec745;
+  height: 400px;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
+          box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
 }
 
 .shop-wraper {
@@ -2485,7 +2502,7 @@ footer {
     margin-left: 0;
   }
   nav .nav-wraper .menue-items ul .item a {
-    color: #363636;
+    color: #414141;
     padding: 12px 10px;
     text-decoration: none;
     display: inline-block;
@@ -2513,10 +2530,10 @@ footer {
     width: 200px;
   }
   nav .nav-wraper .menue-items .dropdown-content .s-item {
-    border-bottom: 1px solid #363636;
+    border-bottom: 1px solid #414141;
   }
   nav .nav-wraper .menue-items .dropdown-content .s-item a {
-    color: #363636;
+    color: #414141;
     padding: 8px 16px;
     width: 180px;
   }
@@ -2537,10 +2554,10 @@ footer {
     width: 200px;
   }
   nav .nav-wraper .menue-items .dropdown-content2 .s-item {
-    border-bottom: 1px solid #363636;
+    border-bottom: 1px solid #414141;
   }
   nav .nav-wraper .menue-items .dropdown-content2 .s-item a {
-    color: #363636;
+    color: #414141;
     padding: 8px 16px;
     width: 180px;
   }
@@ -2561,10 +2578,10 @@ footer {
     width: 200px;
   }
   nav .nav-wraper .menue-items .dropdown-content3 .s-item {
-    border-bottom: 1px solid #363636;
+    border-bottom: 1px solid #414141;
   }
   nav .nav-wraper .menue-items .dropdown-content3 .s-item a {
-    color: #363636;
+    color: #414141;
     padding: 8px 16px;
     width: 180px;
   }

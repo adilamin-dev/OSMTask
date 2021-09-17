@@ -1,0 +1,17 @@
+.service-section-1{
+    .service-wraper{
+        .service-items-details{
+            height: 100%;
+            width: 75%;
+            padding-top: 1em;
+            padding-right: 3em;
+            padding-left: 3em;
+            padding-bottom: 3em;
+            .sp-packages{
+                background-color: rgb(238, 199, 69);
+                height: 400px;
+                box-shadow: $b-shadow;
+            }
+        }
+    }
+}
