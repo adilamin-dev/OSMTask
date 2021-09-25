@@ -117,6 +117,25 @@
             }
         }
     }
+    .company-page{
+        padding-bottom: 0px;
+        .contact-text{
+            h2{
+                margin: 0px;
+                padding-top: 0px;
+            }
+            p{
+                padding-left: 6%;
+                padding-right: 6%;
+            }
+        }
+        .contact-box{
+            max-width: 92%;
+        }
+        .team-page-heading{
+            padding-top: 2rem;
+        }
+    }
 }
 
 @media (max-width: 819px){

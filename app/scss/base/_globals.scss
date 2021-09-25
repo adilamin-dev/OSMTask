@@ -35,3 +35,14 @@ a:visited{
 a:link{
     text-decoration: none;
 }
+
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #6692f3;
+    height: 18%;
+}
+::-webkit-scrollbar-track{
+    background-color: #ffffff;
+}

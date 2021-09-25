@@ -1,0 +1,82 @@
+.company-page{
+    .team-page-heading{
+        text-align: center;
+        padding-top: 4rem;
+    }
+    .team-wraper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        .team-box{
+            position: relative;
+            height: 360px;
+            width: 318px;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 8rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            .team-circle{
+                height: 140px;
+                width: 140px;
+                border-radius: 50%;
+                position: absolute;
+                top: -70px;
+                border: 8px solid $paper-color;
+                padding: 0px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+                img{
+                    height: 138px;
+                    width: 138px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    object-position: center;
+                    margin: 0px;
+                }
+            }
+            .team-card{
+                background-color: $white-color;
+                height: 360px;
+                width: 318px;
+                border-radius: 15px;
+                box-shadow: $b-shadow;
+                .t-name-box{
+                    background-color: rgb(255, 255, 255);
+                    margin-top: 6rem;
+                    margin-left: 2rem;
+                    padding-top: 0px;
+                    padding-bottom: 0px;
+                    padding-right: 0.6em;
+                    padding-left: 1em;
+                    border-left: 4px solid $main-color;
+                    h3{
+                        margin: 0px;
+                        text-transform: uppercase;
+                    }
+                    p{
+                        margin: 0px;
+                        text-transform: uppercase;
+                        font-size: $pfs3;
+                        font-weight: 400;
+                    }
+                }
+                .tm-info-box{
+                    margin-left: 2rem;
+                    padding-top: 2em;
+                    padding-bottom: 0px;
+                    padding-right: 1em;
+                    padding-left: 0px;
+                    p{
+                        margin: 0px;
+                    }
+                }
+            }
+        }
+    }
+}

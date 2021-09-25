@@ -37,6 +37,19 @@ a:link {
   text-decoration: none;
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6692f3;
+  height: 18%;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+
 h1 {
   font-size: 3rem;
 }
@@ -1929,6 +1942,234 @@ footer {
   color: #407BFF;
 }
 
+.company-page .contact-text {
+  text-align: center;
+}
+
+.company-page .contact-text h2 {
+  margin: 0px;
+  padding-top: 3em;
+}
+
+.company-page .contact-text p {
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.company-page .contact-box {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.company-page .contact-box .name-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+
+.company-page .contact-box .name-input input {
+  width: 48%;
+  height: 50px;
+  padding: 0.6em;
+  font-size: 1.2rem;
+  color: #414141;
+  background-color: #ffffff;
+  border-style: none;
+  outline-style: none;
+  border: 2px solid #414141;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
+          box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
+}
+
+.company-page .contact-box .subject-input {
+  padding-bottom: 2em;
+}
+
+.company-page .contact-box .subject-input input {
+  width: 100%;
+  height: 50px;
+  padding: 0.6em;
+  font-size: 1.2rem;
+  color: #414141;
+  background-color: #ffffff;
+  border-style: none;
+  outline-style: none;
+  border: 2px solid #414141;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
+          box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
+}
+
+.company-page .contact-box .message-input {
+  padding-bottom: 2em;
+}
+
+.company-page .contact-box .message-input textarea {
+  width: 100%;
+  padding: 0.6em;
+  font-size: 1.2rem;
+  color: #414141;
+  background-color: #ffffff;
+  border-style: none;
+  outline-style: none;
+  border: 2px solid #414141;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
+          box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
+}
+
+.company-page .contact-box .submit-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.company-page .contact-box .submit-input input {
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+  font-size: 1.2rem;
+  color: #ffffff;
+  background-color: #414141;
+  border-style: none;
+  outline-style: none;
+  border: 2px solid #414141;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
+          box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
+  text-transform: uppercase;
+}
+
+.company-page .contact-box .submit-input input:active {
+  background-color: #3061c9;
+  border: 2px solid transparent;
+}
+
+.company-page .team-page-heading {
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.company-page .team-wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.company-page .team-wraper .team-box {
+  position: relative;
+  height: 360px;
+  width: 318px;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 8rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.company-page .team-wraper .team-box .team-circle {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  position: absolute;
+  top: -70px;
+  border: 8px solid #e3ecff;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+.company-page .team-wraper .team-box .team-circle img {
+  height: 138px;
+  width: 138px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  margin: 0px;
+}
+
+.company-page .team-wraper .team-box .team-card {
+  background-color: #ffffff;
+  height: 360px;
+  width: 318px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
+          box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
+}
+
+.company-page .team-wraper .team-box .team-card .t-name-box {
+  background-color: white;
+  margin-top: 6rem;
+  margin-left: 2rem;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 0.6em;
+  padding-left: 1em;
+  border-left: 4px solid #407BFF;
+}
+
+.company-page .team-wraper .team-box .team-card .t-name-box h3 {
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+.company-page .team-wraper .team-box .team-card .t-name-box p {
+  margin: 0px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.company-page .team-wraper .team-box .team-card .tm-info-box {
+  margin-left: 2rem;
+  padding-top: 2em;
+  padding-bottom: 0px;
+  padding-right: 1em;
+  padding-left: 0px;
+}
+
+.company-page .team-wraper .team-box .team-card .tm-info-box p {
+  margin: 0px;
+}
+
 .service-section-1 {
   padding-top: 8rem;
   padding-bottom: 6rem;
@@ -2307,6 +2548,15 @@ footer {
           box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
 }
 
+.company-page {
+  padding-top: 6em;
+  padding-bottom: 6em;
+}
+
+.cp-padding {
+  padding-bottom: 6em;
+}
+
 @media (max-width: 1164px) {
   .service-section-1 .service-wraper {
     -webkit-box-orient: vertical;
@@ -2431,6 +2681,23 @@ footer {
   }
   .section-4 .counter-wraper .counter-box {
     width: 270px;
+  }
+  .company-page {
+    padding-bottom: 0px;
+  }
+  .company-page .contact-text h2 {
+    margin: 0px;
+    padding-top: 0px;
+  }
+  .company-page .contact-text p {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  .company-page .contact-box {
+    max-width: 92%;
+  }
+  .company-page .team-page-heading {
+    padding-top: 2rem;
   }
 }
 
