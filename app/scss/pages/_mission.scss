@@ -1,0 +1,20 @@
+.mission-page{
+    .mission-content-box{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 4rem;
+        color: $font-color;
+        .mcb-image{
+            padding: 2em;
+            width: 50%;
+            img{
+                width: 450px;
+            }
+        }
+        .mcb-text{
+            padding: 2em;
+            width: 50%;
+        }
+    }
+}
