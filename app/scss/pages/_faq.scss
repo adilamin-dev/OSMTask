@@ -1,0 +1,29 @@
+.faq-page-section{
+    padding-top: 8rem;
+    h2{
+        text-align: center;
+    }
+    .faq-contents-wraper{
+        display: flex;
+        justify-content: center;
+        background-color: aquamarine;
+        .faq-content{
+            width: 70%;
+            background-color: burlywood;
+            .faq-c-box{
+                .faq-c-qb{
+                    background-color: $white-color;
+                    box-shadow: $b-shadow;
+                    .faq-qs{
+                        padding: 1.4em;
+                        background-color: cadetblue;
+                    }
+                    .faq-ans{
+                        padding: 1.4em;
+                        padding-top: 1em;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -2057,6 +2057,45 @@ footer {
   border: 2px solid transparent;
 }
 
+.faq-page-section {
+  padding-top: 8rem;
+}
+
+.faq-page-section h2 {
+  text-align: center;
+}
+
+.faq-page-section .faq-contents-wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: aquamarine;
+}
+
+.faq-page-section .faq-contents-wraper .faq-content {
+  width: 70%;
+  background-color: burlywood;
+}
+
+.faq-page-section .faq-contents-wraper .faq-content .faq-c-box .faq-c-qb {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
+          box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
+}
+
+.faq-page-section .faq-contents-wraper .faq-content .faq-c-box .faq-c-qb .faq-qs {
+  padding: 1.4em;
+  background-color: cadetblue;
+}
+
+.faq-page-section .faq-contents-wraper .faq-content .faq-c-box .faq-c-qb .faq-ans {
+  padding: 1.4em;
+  padding-top: 1em;
+}
+
 .mission-page .mission-content-box {
   display: -webkit-box;
   display: -ms-flexbox;
