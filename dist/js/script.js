@@ -47,5 +47,21 @@ $(document).ready(function(){
             }
         }
     });
+    $(".qsarr-i").click(function(){
+        $(".faq-ans1").slideToggle();
+        $(".qsarr-i").toggleClass("fa-chevron-down fa-chevron-up");
+    });
+    $(".qsarr-i2").click(function(){
+        $(".faq-ans2").slideToggle();
+        $(".qsarr-i2").toggleClass("fa-chevron-down fa-chevron-up");
+    });
+    $(".qsarr-i3").click(function(){
+        $(".faq-ans3").slideToggle();
+        $(".qsarr-i3").toggleClass("fa-chevron-down fa-chevron-up");
+    });
+    $(".qsarr-i4").click(function(){
+        $(".faq-ans4").slideToggle();
+        $(".qsarr-i4").toggleClass("fa-chevron-down fa-chevron-up");
+    });
 });
 

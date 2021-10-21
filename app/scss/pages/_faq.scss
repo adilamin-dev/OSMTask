@@ -1,4 +1,5 @@
 .faq-page-section{
+    color: $font-color;
     padding-top: 8rem;
     h2{
         text-align: center;
@@ -6,21 +7,56 @@
     .faq-contents-wraper{
         display: flex;
         justify-content: center;
-        background-color: aquamarine;
         .faq-content{
             width: 70%;
-            background-color: burlywood;
+            h3{
+                padding-left: 1rem;
+                font-size: 1.6rem;
+            }
             .faq-c-box{
                 .faq-c-qb{
                     background-color: $white-color;
                     box-shadow: $b-shadow;
+                    margin-bottom: 0.8rem;
                     .faq-qs{
-                        padding: 1.4em;
-                        background-color: cadetblue;
+                        padding-left: 1em;
+                        padding-right: 1em;
+                        padding-top: 0.2em;
+                        padding-bottom: 0.2em;
+                        background-color: $paper-color;
+                        display: flex;
+                        justify-content: space-between;
+                        align-content: center;
+                        p{
+                            padding: 0px;
+                        }
+                        .qs-arrow{
+                            margin: 0px;
+                            padding-left: 0.6em;
+                            display: flex;
+                            justify-content: center;
+                            align-content: center;
+                            align-items: center;
+                            i{
+                                cursor: pointer;
+                                padding-top: 15px;
+                                padding-bottom: 15px;
+                                padding-right: 15px;
+                                padding-left: 15px;
+                                line-height: 15px;
+                                box-shadow: $b-shadow;
+                                border-radius: 50%;
+                                background-color: $white-color;
+                            }
+                        }
                     }
                     .faq-ans{
-                        padding: 1.4em;
+                        padding-left: 1em;
+                        padding-right: 1em;
+                        padding-top: 0.2em !important;
+                        padding-bottom: 0.2em;
                         padding-top: 1em;
+                        display: none;
                     }
                 }
             }
