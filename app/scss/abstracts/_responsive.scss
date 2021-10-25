@@ -330,8 +330,29 @@
     
 }
 
-@media (max-width: 540px){
-    
+@media (max-width: 530px){
+    .shop-wraper{
+        .shop-item{
+            flex-direction: column;
+            width: 300px;
+            height: 500px;
+            .product-img{
+                width: 300px;
+                height: 200px;
+                margin: 0px;
+                padding: 0px;
+                overflow: hidden;
+                img{
+                    height: 200px;
+                    width: 300px;
+                    object-position: center;
+                    object-fit: cover;
+                    margin: 0px;
+                    padding: 0px;
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 479px){
