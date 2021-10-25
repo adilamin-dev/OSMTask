@@ -1,5 +1,6 @@
 .service-section-1{
     .service-wraper{
+        color: $font-color;
         .service-items-details{
             height: 100%;
             width: 75%;
@@ -8,9 +9,79 @@
             padding-left: 3em;
             padding-bottom: 3em;
             .sp-packages{
-                background-color: rgb(238, 199, 69);
-                height: 400px;
+                display: flex;
+                justify-content: center;
+                align-content: center;
                 box-shadow: $b-shadow;
+                .spp-img{
+                    height: 300px;
+                    width: 500px;
+                    img{
+                        height: 300px;
+                        width: 500px;
+                        object-position: center;
+                        object-fit: cover;
+                    }
+                }
+                .spp-info{
+                    width: 100%;
+                    padding: 1em;
+                    .pkg-title{
+                        margin: 0px;
+                    }
+                    .s-rating-section{
+                        color: $g-color;
+                        list-style: none;
+                        display: flex;
+                        justify-content: flex-start;
+                        align-content: center;
+                        align-items: center;
+                        left: 0px;
+                        margin-top: 0.6rem;
+                        margin-bottom: 0.6rem;
+                        margin-right: 0px;
+                        margin-left: 0px;
+                        padding: 0px;
+                        li{
+                            margin: 0.4rem;
+                        }
+                    }
+                    .prev-price{
+                        text-decoration: line-through;
+                        font-size: x-large;
+                    }
+                    .now-price{
+                        font-size: x-large;
+                        margin-left: 0.8rem;
+                    }
+                    .pkg-btn-wraper{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        align-content: center;
+                        .pack-start-btn{
+                            outline-style: none;
+                            border-style: none;
+                            background-color: $main-color;
+                            color: $white-color;
+                            font-size: $pfs2;
+                            font-weight: 600;
+                            display: block;
+                            padding-top: 0.6em;
+                            padding-bottom: 0.6em;
+                            width: 220px;
+                            margin-top: 0.8rem;
+                            margin-bottom: 0.8rem;
+                            cursor: pointer;
+                            border-radius: 6px;
+                        }
+                        .pack-start-btn:hover{
+                            background-color: $green-color;
+                        }.pack-start-btn:active{
+                            background-color: $dark-green;
+                        }
+                    }
+                }
             }
         }
     }

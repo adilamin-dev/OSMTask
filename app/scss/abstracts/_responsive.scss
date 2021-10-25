@@ -10,6 +10,18 @@
             }
         }
     }
+    .service-section-1{
+        .service-wraper{
+            .service-items-details{
+                height: 100%;
+                width: 100%;
+                padding-top: 1em;
+                padding-right: 3em;
+                padding-left: 3em;
+                padding-bottom: 3em;
+            }
+        }
+    }
 }
 @media (max-width: 994px){
     .news-letter{
@@ -145,8 +157,28 @@
     }
 }
 
-@media (max-width: 819px){
-    
+@media (max-width: 875px){
+    .sp-packages{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        .spp-img{
+            max-width: 400px;
+            background-color: cadetblue;
+            img{
+                max-width: 400px;
+                object-position: center;
+                object-fit: cover;
+            }
+        }
+        .spp-info{
+            .s-rating-section{
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
 }
 
 @media (max-width: 850px){

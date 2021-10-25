@@ -2517,6 +2517,10 @@ footer {
   text-decoration: none;
 }
 
+.service-section-1 .service-wraper {
+  color: #414141;
+}
+
 .service-section-1 .service-wraper .service-items-details {
   height: 100%;
   width: 75%;
@@ -2527,10 +2531,114 @@ footer {
 }
 
 .service-section-1 .service-wraper .service-items-details .sp-packages {
-  background-color: #eec745;
-  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
   -webkit-box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
           box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
+}
+
+.service-section-1 .service-wraper .service-items-details .sp-packages .spp-img {
+  height: 300px;
+  width: 500px;
+}
+
+.service-section-1 .service-wraper .service-items-details .sp-packages .spp-img img {
+  height: 300px;
+  width: 500px;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.service-section-1 .service-wraper .service-items-details .sp-packages .spp-info {
+  width: 100%;
+  padding: 1em;
+}
+
+.service-section-1 .service-wraper .service-items-details .sp-packages .spp-info .pkg-title {
+  margin: 0px;
+}
+
+.service-section-1 .service-wraper .service-items-details .sp-packages .spp-info .s-rating-section {
+  color: #fcc200;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  left: 0px;
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 0px;
+}
+
+.service-section-1 .service-wraper .service-items-details .sp-packages .spp-info .s-rating-section li {
+  margin: 0.4rem;
+}
+
+.service-section-1 .service-wraper .service-items-details .sp-packages .spp-info .prev-price {
+  text-decoration: line-through;
+  font-size: x-large;
+}
+
+.service-section-1 .service-wraper .service-items-details .sp-packages .spp-info .now-price {
+  font-size: x-large;
+  margin-left: 0.8rem;
+}
+
+.service-section-1 .service-wraper .service-items-details .sp-packages .spp-info .pkg-btn-wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.service-section-1 .service-wraper .service-items-details .sp-packages .spp-info .pkg-btn-wraper .pack-start-btn {
+  outline-style: none;
+  border-style: none;
+  background-color: #407BFF;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: block;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  width: 220px;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.service-section-1 .service-wraper .service-items-details .sp-packages .spp-info .pkg-btn-wraper .pack-start-btn:hover {
+  background-color: #2aac40;
+}
+
+.service-section-1 .service-wraper .service-items-details .sp-packages .spp-info .pkg-btn-wraper .pack-start-btn:active {
+  background-color: #269e3a;
 }
 
 .shop-wraper {
@@ -2690,6 +2798,14 @@ footer {
   .service-section-1 .service-wraper .service-menue {
     width: 100%;
   }
+  .service-section-1 .service-wraper .service-items-details {
+    height: 100%;
+    width: 100%;
+    padding-top: 1em;
+    padding-right: 3em;
+    padding-left: 3em;
+    padding-bottom: 3em;
+  }
 }
 
 @media (max-width: 994px) {
@@ -2821,6 +2937,39 @@ footer {
   }
   .faq-page-section .faq-contents-wraper .faq-content {
     width: 100%;
+  }
+}
+
+@media (max-width: 875px) {
+  .sp-packages {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .sp-packages .spp-img {
+    max-width: 400px;
+    background-color: cadetblue;
+  }
+  .sp-packages .spp-img img {
+    max-width: 400px;
+    -o-object-position: center;
+       object-position: center;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .sp-packages .spp-info .s-rating-section {
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
