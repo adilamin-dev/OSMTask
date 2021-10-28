@@ -892,8 +892,8 @@ nav .nav-wraper .menue-items .dropdown-content {
   border-radius: 6px;
   min-width: 160px;
   background-color: #ffffff;
-  -webkit-box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
-          box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
+  -webkit-box-shadow: 0px 2px 4px 1px rgba(49, 49, 49, 0.171);
+          box-shadow: 0px 2px 4px 1px rgba(49, 49, 49, 0.171);
   overflow: hidden;
 }
 
@@ -927,8 +927,8 @@ nav .nav-wraper .menue-items .dropdown-content2 {
   border-radius: 6px;
   min-width: 160px;
   background-color: #ffffff;
-  -webkit-box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
-          box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
+  -webkit-box-shadow: 0px 2px 4px 1px rgba(49, 49, 49, 0.171);
+          box-shadow: 0px 2px 4px 1px rgba(49, 49, 49, 0.171);
   overflow: hidden;
 }
 
@@ -962,8 +962,8 @@ nav .nav-wraper .menue-items .dropdown-content3 {
   border-radius: 6px;
   min-width: 160px;
   background-color: #ffffff;
-  -webkit-box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
-          box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
+  -webkit-box-shadow: 0px 2px 4px 1px rgba(49, 49, 49, 0.171);
+          box-shadow: 0px 2px 4px 1px rgba(49, 49, 49, 0.171);
   overflow: hidden;
 }
 
@@ -1512,8 +1512,8 @@ footer {
   margin: 2rem auto;
   margin-top: 0;
   border-radius: 12px;
-  -webkit-box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
-          box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
+  -webkit-box-shadow: 0px 2px 4px 1px rgba(49, 49, 49, 0.171);
+          box-shadow: 0px 2px 4px 1px rgba(49, 49, 49, 0.171);
 }
 
 .section-3 .services-ab-wraper .sa-box .sib-box .sib-wraper {
@@ -1712,8 +1712,8 @@ footer {
   padding: 0.8em;
   border-radius: 12px;
   background-color: #ffffff;
-  -webkit-box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
-          box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
+  -webkit-box-shadow: 0px 2px 4px 1px rgba(49, 49, 49, 0.171);
+          box-shadow: 0px 2px 4px 1px rgba(49, 49, 49, 0.171);
 }
 
 .section-5 .testimonial-item .testimonial-text span {
@@ -1876,8 +1876,8 @@ footer {
   margin-right: 0.4rem;
   margin-bottom: 2rem;
   width: 340px;
-  -webkit-box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
-          box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
+  -webkit-box-shadow: 0px 2px 4px 1px rgba(49, 49, 49, 0.171);
+          box-shadow: 0px 2px 4px 1px rgba(49, 49, 49, 0.171);
   background-color: #ffffff;
 }
 
@@ -1985,8 +1985,8 @@ footer {
   border-style: none;
   outline-style: none;
   border: 2px solid #414141;
-  -webkit-box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
-          box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
+  -webkit-box-shadow: 0px 2px 4px 1px rgba(49, 49, 49, 0.171);
+          box-shadow: 0px 2px 4px 1px rgba(49, 49, 49, 0.171);
 }
 
 .company-page .contact-box .subject-input {
@@ -2003,8 +2003,8 @@ footer {
   border-style: none;
   outline-style: none;
   border: 2px solid #414141;
-  -webkit-box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
-          box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
+  -webkit-box-shadow: 0px 2px 4px 1px rgba(49, 49, 49, 0.171);
+          box-shadow: 0px 2px 4px 1px rgba(49, 49, 49, 0.171);
 }
 
 .company-page .contact-box .message-input {
@@ -2020,8 +2020,8 @@ footer {
   border-style: none;
   outline-style: none;
   border: 2px solid #414141;
-  -webkit-box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
-          box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
+  -webkit-box-shadow: 0px 2px 4px 1px rgba(49, 49, 49, 0.171);
+          box-shadow: 0px 2px 4px 1px rgba(49, 49, 49, 0.171);
 }
 
 .company-page .contact-box .submit-input {
@@ -2047,8 +2047,8 @@ footer {
   border-style: none;
   outline-style: none;
   border: 2px solid #414141;
-  -webkit-box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
-          box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
+  -webkit-box-shadow: 0px 2px 4px 1px rgba(49, 49, 49, 0.171);
+          box-shadow: 0px 2px 4px 1px rgba(49, 49, 49, 0.171);
   text-transform: uppercase;
 }
 
@@ -2086,8 +2086,8 @@ footer {
 
 .faq-page-section .faq-contents-wraper .faq-content .faq-c-box .faq-c-qb {
   background-color: #ffffff;
-  -webkit-box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
-          box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
+  -webkit-box-shadow: 0px 2px 4px 1px rgba(49, 49, 49, 0.171);
+          box-shadow: 0px 2px 4px 1px rgba(49, 49, 49, 0.171);
   margin-bottom: 0.8rem;
 }
 
@@ -2134,8 +2134,8 @@ footer {
   padding-right: 15px;
   padding-left: 15px;
   line-height: 15px;
-  -webkit-box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
-          box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
+  -webkit-box-shadow: 0px 2px 4px 1px rgba(49, 49, 49, 0.171);
+          box-shadow: 0px 2px 4px 1px rgba(49, 49, 49, 0.171);
   border-radius: 50%;
   background-color: #ffffff;
 }
@@ -2251,8 +2251,8 @@ footer {
   height: 360px;
   width: 318px;
   border-radius: 15px;
-  -webkit-box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
-          box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
+  -webkit-box-shadow: 0px 2px 4px 1px rgba(49, 49, 49, 0.171);
+          box-shadow: 0px 2px 4px 1px rgba(49, 49, 49, 0.171);
 }
 
 .company-page .team-wraper .team-box .team-card .t-name-box {
@@ -2345,8 +2345,8 @@ footer {
   width: 280px;
   background-color: #ffffff;
   border-radius: 12px;
-  -webkit-box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
-          box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
+  -webkit-box-shadow: 0px 2px 4px 1px rgba(49, 49, 49, 0.171);
+          box-shadow: 0px 2px 4px 1px rgba(49, 49, 49, 0.171);
   padding: 1em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2539,8 +2539,8 @@ footer {
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  -webkit-box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
-          box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
+  -webkit-box-shadow: 0px 2px 4px 1px rgba(49, 49, 49, 0.171);
+          box-shadow: 0px 2px 4px 1px rgba(49, 49, 49, 0.171);
 }
 
 .service-section-1 .service-wraper .service-items-details .sp-packages .spp-img {
@@ -2669,8 +2669,8 @@ footer {
   width: 500px;
   height: 300px;
   background-color: #ffffff;
-  -webkit-box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
-          box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
+  -webkit-box-shadow: 0px 2px 4px 1px rgba(49, 49, 49, 0.171);
+          box-shadow: 0px 2px 4px 1px rgba(49, 49, 49, 0.171);
   margin: 1.8rem;
 }
 
@@ -2772,8 +2772,8 @@ footer {
 
 .shop-wraper .shop-item .product-info .product-price-btn button:active {
   background-color: #3061c9;
-  -webkit-box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
-          box-shadow: 0px 2px 4px 0px rgba(49, 49, 49, 0.15);
+  -webkit-box-shadow: 0px 2px 4px 1px rgba(49, 49, 49, 0.171);
+          box-shadow: 0px 2px 4px 1px rgba(49, 49, 49, 0.171);
 }
 
 .company-page {
@@ -2941,7 +2941,22 @@ footer {
 }
 
 @media (max-width: 875px) {
-  .sp-packages {
+  .service-section-1 .service-wraper .service-items-details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .service-section-1 .service-wraper .service-items-details .sp-packages {
+    width: 500px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -2951,18 +2966,18 @@ footer {
             align-items: center;
     text-align: center;
   }
-  .sp-packages .spp-img {
-    max-width: 400px;
+  .service-section-1 .service-wraper .service-items-details .sp-packages .spp-img {
+    width: 500px;
     background-color: cadetblue;
   }
-  .sp-packages .spp-img img {
-    max-width: 400px;
+  .service-section-1 .service-wraper .service-items-details .sp-packages .spp-img img {
+    width: 500px;
     -o-object-position: center;
        object-position: center;
     -o-object-fit: cover;
        object-fit: cover;
   }
-  .sp-packages .spp-info .s-rating-section {
+  .service-section-1 .service-wraper .service-items-details .sp-packages .spp-info .s-rating-section {
     text-align: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -3185,6 +3200,52 @@ footer {
        object-fit: cover;
     margin: 0px;
     padding: 0px;
+  }
+  .service-section-1 .service-wraper .service-items-details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .service-section-1 .service-wraper .service-items-details .sp-packages {
+    width: 300px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .service-section-1 .service-wraper .service-items-details .sp-packages .spp-img {
+    width: 300px;
+    background-color: cadetblue;
+  }
+  .service-section-1 .service-wraper .service-items-details .sp-packages .spp-img img {
+    width: 300px;
+    height: 100%;
+    -o-object-position: center;
+       object-position: center;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .service-section-1 .service-wraper .service-items-details .sp-packages .spp-info .s-rating-section {
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 

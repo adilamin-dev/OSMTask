@@ -158,24 +158,35 @@
 }
 
 @media (max-width: 875px){
-    .sp-packages{
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        .spp-img{
-            max-width: 400px;
-            background-color: cadetblue;
-            img{
-                max-width: 400px;
-                object-position: center;
-                object-fit: cover;
-            }
-        }
-        .spp-info{
-            .s-rating-section{
-                text-align: center;
-                justify-content: center;
+    .service-section-1{
+        .service-wraper{
+            .service-items-details{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
                 align-items: center;
+                .sp-packages{
+                    width: 500px;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    .spp-img{
+                        width: 500px;
+                        background-color: cadetblue;
+                        img{
+                            width: 500px;
+                            object-position: center;
+                            object-fit: cover;
+                        }
+                    }
+                    .spp-info{
+                        .s-rating-section{
+                            text-align: center;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                    }
+                }
             }
         }
     }
@@ -381,6 +392,39 @@
                     object-fit: cover;
                     margin: 0px;
                     padding: 0px;
+                }
+            }
+        }
+    }
+    .service-section-1{
+        .service-wraper{
+            .service-items-details{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                .sp-packages{
+                    width: 300px;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    .spp-img{
+                        width: 300px;
+                        background-color: cadetblue;
+                        img{
+                            width: 300px;
+                            height: 100%;
+                            object-position: center;
+                            object-fit: cover;
+                        }
+                    }
+                    .spp-info{
+                        .s-rating-section{
+                            text-align: center;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                    }
                 }
             }
         }
